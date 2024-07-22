@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dantrix's Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Dantrix</h1>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="links.html">Links to Artist Profiles</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="home">
+        <div class="container">
+            <h2>Welcome to Dantrix's Portfolio</h2>
+            <p>Discover my artwork and creative journey.</p>
+        </div>
+    </section>
+
+    <section id="gallery">
+        <div class="container">
+            <h2>Releases</h2>
+            <div class="gallery-grid">
+                <!-- Add your artwork images here -->
+                <div class="gallery-item"><img src="art1.png" alt="Art 1"></div>
+                <div class="gallery-item"><img src="art2.png" alt="Art 2"></div>
+                <!-- Add more items as needed -->
+            </div>
+        </div>
+    </section>
+
+    <div class="audio-players">
+        <div class="audio-player">
+            <h1>You can</h1>
+            <audio id="audio1" controls>
+                <source src="prohouse.wav" type="audio/wav">
+                Your browser does not support the audio element.
+            </audio>
+           
+        </div>
+
+        <div class="audio-player">
+            <h1>I know better</h1>
+            <audio id="audio2" controls>
+                <source src="I know better.wav" type="audio/wav">
+                Your browser does not support the audio element.
+            </audio>
+           
+        </div>
+    </div>
+    <section id="about">
+        <div class="container">
+            <h2>About Dantrix</h2>
+            <p>Hi, I'm Dantrix, a passionate artist who loves to explore different mediums and styles...</p>
+            <!-- Add more about yourself here -->
+        </div>
+    </section>
+
+    <section id="contact">
+        <div class="container">
+            <h2>Contact</h2>
+            <form id="contact-form">
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name" required>
+                
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" required>
+                
+                <label for="message">Message</label>
+                <textarea id="message" name="message" required></textarea>
+                
+                <button type="submit">Send</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>Follow me on:</p>
+            <ul class="social-links">
+                <li><a href="https://instagram.com/dantrix" target="_blank">Instagram</a></li>
+                <li><a href="https://twitter.com/dantrix" target="_blank">Twitter</a></li>
+                <li><a href="https://facebook.com/dantrix" target="_blank">Facebook</a></li>
+                <!-- Add more links as needed -->
+            </ul>
+            <p>&copy; 2024 Dantrix. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
